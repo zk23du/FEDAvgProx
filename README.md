@@ -8,12 +8,12 @@ PGD performed better (FedProx), then DFW with FedProx and DFW FedAvg are almost 
 <h4> ACCURACY</h4>
 <h5> Batch Size = 10</h5>
 
-| Optimizer | 2 | 4 | 6 | 8 | 16 | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| SGD | 70.0573 | 70.7439 | 69.4774 | 69.5041 | 67.1977 | FedAvg |
-| BCDFW | 71.8571 | 66.2378 | 64.6114 | 61.2518 | 54.4661 | FedAvg |
-| DFW | 81.6589 | 79.4207 | 79.2451 | 75.9036 | 72.8033 |  FedAvg|
-| DFW-Prox | 85.4080 | 83.6526 | 81.5366 | 79.6966 | 70.1451 | FedProx |
+| Optimizer | 2 | 4 | 6 | 8 | 16 | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SGD | 70.0573 | 70.7439 | 69.4774 | 69.5041 | 67.1977 | FedAvg | TextCNN |
+| BCDFW | 71.8571 | 66.2378 | 64.6114 | 61.2518 | 54.4661 | FedAvg | TextCNN |
+| DFW | 81.6589 | 79.4207 | 79.2451 | 75.9036 | 72.8033 | FedAvg | TextCNN |
+| DFW-Prox | 85.4080 | 83.6526 | 81.5366 | 79.6966 | 70.1451 | FedProx | TextCNN |
 
 <h4> LOSS</h4>
 
