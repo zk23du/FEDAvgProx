@@ -23,6 +23,7 @@ PGD performed better (FedProx), then DFW with FedProx and DFW FedAvg are almost 
 | DFW-Prox | 0.4109 | 0.4699 | 0.5386 | 0.5904 |  0.8419 | FedProx |
 
 <h5> Batch Size = 32</h5>
+
 | Optimizer | 2 | 4 | 6 | 8 | 16 | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | DFW |  |  |  |  |  |  FedAvg| TextCNN |
