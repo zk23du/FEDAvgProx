@@ -6,6 +6,7 @@
 
 PGD performed better (FedProx), then DFW with FedProx and DFW FedAvg are almost same!!
 <h4> ACCURACY</h4>
+<h5> Batch Size = 10</h5>
 
 | Optimizer | 2 | 4 | 6 | 8 | 16 | --- |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -20,6 +21,23 @@ PGD performed better (FedProx), then DFW with FedProx and DFW FedAvg are almost 
 | --- | --- | --- | --- | --- | --- | --- |
 | DFW | 0.5434 | 0.5879 | 0.8076 | 0.8860 | 0.9833 |  FedAvg|
 | DFW-Prox | 0.4109 | 0.4699 | 0.5386 | 0.5904 |  0.8419 | FedProx |
+
+<h5> Batch Size = 32</h5>
+| Optimizer | 2 | 4 | 6 | 8 | 16 | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| DFW |  |  |  |  |  |  FedAvg| TextCNN |
+| DFW |  |  |  |  |  |  FedAvg| fastText |
+| DFW-Prox | 89.1978 | 88.7245 | 88.2323 | 88.0035 | 86.7621 | FedProx | TextCNN |
+| DFW-Prox | 88.7151 | 88.4957 | 88.0818 | 87.4487 | 85.1478 | FedProx | fastText |
+
+<h4> LOSS</h4>
+
+| Optimizer | 2 | 4 | 6 | 8 | 16 | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| DFW |  |  |  |  |  | FedAvg | TextCNN |
+| DFW |  |  |  |  |  | FedAvg | fastText |
+| DFW-Prox | 0.2003 | 0.2524 | 0.2846 | 0.3038 |  0.3599 | FedProx | TextCNN |
+| DFW-Prox | 0.2262 | 0.2767 | 0.3110 | 0.3371 |  0.4126 | FedProx | fastText |
 
 <h2> Image </h2>
 <h3> Dataset = Cifar10 </h3>
