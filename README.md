@@ -26,18 +26,18 @@ PGD performed better (FedProx), then DFW with FedProx and DFW FedAvg are almost 
 
 | Optimizer | 2 | 4 | 6 | 8 | 16 | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DFW | 81.1730 | 76.3926 |  |  |  | FedAvg | TextCNN |
+| DFW | 81.1730 | 76.3926 | 76.0383 | 67.7314 | 41.0332 | FedAvg | TextCNN |
 | DFW-Prox | 89.1978 | 88.7245 | 88.2323 | 88.0035 | 86.7621 | FedProx | TextCNN |
-| DFW | 88.6743 | 87.2261 |  |  |  | FedAvg | fastText |
+| DFW | 88.6743 | 87.2261 | 85.8092 | 82.9661 | 66.1703 | FedAvg | fastText |
 | DFW-Prox | 88.7151 | 88.4957 | 88.0818 | 87.4487 | 85.1478 | FedProx | fastText |
 
 <h4> LOSS</h4>
 
 | Optimizer | 2 | 4 | 6 | 8 | 16 | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DFW | 0.5162 | 0.6751 |  |  |  | FedAvg | TextCNN |
+| DFW | 0.5162 | 0.6751 | 0.8179 | 1.4827 | 1.7199 | FedAvg | TextCNN |
 | DFW-Prox | 0.2003 | 0.2524 | 0.2846 | 0.3038 |  0.3599 | FedProx | TextCNN |
-| DFW | 0.3847 | 0.4526 |  |  |  | FedAvg | fastText |
+| DFW | 0.3847 | 0.4526 | 0.5024 | 0.6397 | 1.0721 | FedAvg | fastText |
 | DFW-Prox | 0.2262 | 0.2767 | 0.3110 | 0.3371 |  0.4126 | FedProx | fastText |
 
 <h2> Image </h2>
